@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel='stylesheet' href='../assets/css/all.css'>
+	<link rel='stylesheet' href='../assets/css/registration.css'>
+	<script src="../assets/js/jquery.min.js"></script>
+	<script src='../assets/js/main.js'></script>
+	<script src='../assets/js/registration.js'></script>
+</head>
+
+<body>
+	<div class='main-wrapper'>
+		<div class='main'>
+			<h1 class='main-header' id='loginPage'>Войти в аккаунт</h1>
+			<div class='fields'>
+				<div class='field-wrapper'>
+					<div class='field'>
+						<input type='text' id='loginLogin' placeholder='Имя пользователя или почта'>
+						<div class="clear-button" id='loginLoiginClear'>
+							<img class="icon" src='../assets/images/close.svg'>
+						</div>
+					</div>
+					<div class='field-error' id='loginLoginError'>
+						<img class='icon' src='../assets/images/registration/warn.svg'>
+						<p>Такой пользователь не найден</p>
+					</div>
+				</div>
+				<div class='field-wrapper'>
+					<div class='field'>
+						<input type='password' id='loginPassword' placeholder='Пароль'>
+						<div class="clear-button" id='loginPasswordClear'>
+							<img class="icon" src='../assets/images/close.svg'>
+						</div>
+					</div>
+					<div class='field-error' id='loginPasswordError'>
+						<img class='icon' src='../assets/images/registration/warn.svg'>
+						<p>Некорректный пароль</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class='footer'>
+		<div class='button submit main' id='loginFinish'>
+			<p>Войти</p>
+		</div>
+	</div>
+</body>
+
+</html>

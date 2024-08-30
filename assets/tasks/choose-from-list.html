@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel='stylesheet' href='../assets/css/grammar.css'>
+	<link rel='stylesheet' href='../assets/css/all.css'>
+	<link rel='stylesheet' href='../assets/css/tasks/task.css'>
+	<link rel='stylesheet' href='../assets/css/tasks/choose-from-list.css'>
+	<script src="../assets/js/jquery.min.js"></script>
+	<script src="../assets/js/scripts/getFileNameFromTitle.js"></script>
+	<script src='../assets/js/main.js'></script>
+	<script src='../assets/js/tasks/task.js'></script>
+	<script src='../assets/js/tasks/choose-from-list.js'></script>
+	<title>Document</title>
+</head>
+
+<body>
+	<div class='header'>
+		<div class='elements'>
+			<div class='icon' id='close'>
+				<img src='../assets/images/close.svg'>
+			</div>
+
+			<div class='progress-bar-border'>
+				<div class='progress-bar'>
+					<div class='highlight'></div>
+				</div>
+			</div>
+
+			<div class='header-block'>
+				<div class='icon'>
+					<img src='../assets/images/heart.svg'>
+				</div>
+				<p id='hearts'>100</p>
+			</div>
+		</div>
+	</div>
+
+	<div class='main-wrapper'>
+
+		<div class='main'>
+
+			<h2 id='title'></h2>
+
+			<div class='sound-box'>
+				<div class='play-sound-box'>
+					<button class='play-sound-normal'>
+						<img class="icon" src='../assets/images/speaker.svg'>
+					</button>
+					<button class='play-sound-slow'>
+						<img class='icon' src='../assets/images/snail.svg'>
+					</button>
+				</div>
+				<h1 id='cantHear'>Я не могу прослушать</h1>
+			</div>
+
+			<h1 class='thick-title' id='text'></h1>
+
+			<div class='options-list'></div>
+
+		</div>
+
+		<div class='result'>
+			<div class='result-content'>
+				<div class='result-title'>
+					<img src='../assets/images/checkmark-success.svg'>
+					<h1 id="resultWord">Превосходно!</h1>
+				</div>
+
+				<div class='report'>
+					<img src='../assets/images/flag.svg'>
+				</div>
+			</div>
+		</div>
+
+		<div class='footer'></div>
+		<div class='button submit' id='check'>
+			<p>Проверить</p>
+		</div>
+	</div>
+</body>
+
+</html>

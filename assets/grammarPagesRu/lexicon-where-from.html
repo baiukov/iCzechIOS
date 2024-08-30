@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel='stylesheet' href='../assets/css/grammar.css'>
+	<link rel='stylesheet' href='../assets/css/tasks/task.css'>
+	<link rel='stylesheet' href='../assets/css/all.css'>
+	<link rel='stylesheet' href='../assets/css/lexicon.css'>
+	<script src="../assets/js/jquery.min.js"></script>
+	<script src='../assets/js/main.js'></script>
+	<script src='../assets/js/grammar.js'></script>
+	<script src='../assets/js/lexicon.js'></script>
+	<title>Document</title>
+</head>
+
+<body>
+	<div class='header'>
+		<div class='elements'>
+			<div class='icon' id='close'>
+				<img src='../assets/images/close.svg'>
+			</div>
+
+			<div class='progress-bar-border'>
+				<div class='progress-bar'></div>
+			</div>
+
+			<div class='header-block'>
+				<div class='icon'>
+					<img src='../assets/images/heart.svg'>
+				</div>
+				<p id='hearts'>100</p>
+			</div>
+		</div>
+	</div>
+
+	<div class='main-wrapper'>
+		<div class='main'>
+			<div class='title-wrapper'>
+				<div class='title'>
+					<h1>Лексика</h1>
+					<img class='open-cloud icon' src='../assets/images/information.svg' id='lexiconInfoButton'>
+				</div>
+				<div class='information' id='lexiconInfo'>
+					<div class='cloud-box'></div>
+					<p>Ле́ксика — словарный состав языка, совокупность слов того или иного языка, части языка.</p>
+					<p>Для использования языка необходимо не только знать слова, но и уметь их применять. В данном разделе
+						показываются примеры,
+						объясняется употребление фраз, постановка вопроса и ответа на него в повседневном диалоге.</p>
+				</div>
+			</div>
+
+			<div class='question'>
+				<h2>Вопрос:</h2>
+				<div class='question-options'>
+					<div class='question-option'>
+						<p>Odkud jste? - Откуда вы?</p>
+					</div>
+					<div class='question-option'>
+						<p>Odkud jsi? - Откуда ты?</p>
+					</div>
+				</div>
+			</div>
+
+			<div class='answer'>
+				<h2>Ответ:</h2>
+				<div class='answer-options'>
+					<div class='answer-option'>
+						<h3>1. Через указания страны/города: </h3>
+						<p>Jsem z Česka - Я из Чехии</p>
+						<table>
+							<thead>
+								<tr>
+									<td>Я из</td>
+									<td><i>название страны</i></td>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td rowspan='10' id='from'>Jsem z</td>
+									<td>Kazachstán<span class='important'>u</span></td>
+								</tr>
+								<tr>
+									<td>Ukrajin<span class='important'>y</span></td>
+								</tr>
+								<tr>
+									<td>Rusk<span class='important'>a</span></td>
+								</tr>
+								<tr>
+									<td>Bělorusk<span class='important'>a</span></td>
+								</tr>
+								<tr>
+									<td>Armeni<span class='important'>e</span></td>
+								</tr>
+								<tr>
+									<td>Gruzi<span class='important'>e</span></td>
+								</tr>
+								<tr>
+									<td>Ázerbájdžán<span class='important'>u</span></td>
+								</tr>
+								<tr>
+									<td>Uzbekistán<span class='important'>u</span></td>
+								</tr>
+								<tr>
+									<td>Tádžikistán<span class='important'>u</span></td>
+								</tr>
+								<tr>
+									<td>Turkmenistán<span class='important'>u</span></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+
+				<div class='answer-options'>
+					<div class='answer-option'>
+						<h3>2. Через указание национальности: </h3>
+						<p>Jsem čech - Я чех</p>
+						<table>
+							<thead>
+								<tr>
+									<td>Я</td>
+									<td><i>название национальности</i></td>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td rowspan='10' id='from'>Jsem</td>
+									<td>Kazach / kazaška</td>
+								</tr>
+								<tr>
+									<td>Ukrajinec / ukrajinka</td>
+								</tr>
+								<tr>
+									<td>Rus / ruska</td>
+								</tr>
+								<tr>
+									<td>Bělorus / běloruska</td>
+								</tr>
+								<tr>
+									<td>Armén / arménka</td>
+								</tr>
+								<tr>
+									<td>Gruzínec / gruzínka</td>
+								</tr>
+								<tr>
+									<td>Ázerbájdžánec / ázerbájdžánka</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+
+			<div class='attention'>
+				<img src='../assets/images/exclamation.svg'>
+				<div class='content'>
+					<h1>Jsem ≠ Я.</h1>
+					<p>Вам могло показаться, что слово jsem переводится как 'Я'. На самом же деле 'jsem' - это глагол
+						быть/'являться' в
+						1-м лице, то есть 'jsem - являюсь'. Местоимение 'Я' же переводится как 'Já', но его использование зачастую
+						опускается, поэтому выражение 'Já jsem ...' явяляется абсолютно коректным.</p>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<div class='footer'>
+		<div class='button submit enabled' id='check'>
+			<p>Продолжить</p>
+		</div>
+	</div>
+</body>
+
+<style>
+	table {
+		width: 100%;
+	}
+
+	td,
+	th {
+		border-spacing: 0;
+		padding: 2px 5px 2px 10px;
+		border-radius: 3px;
+	}
+
+	#from {
+		font-size: 1.2em;
+	}
+
+	thead * td {
+		padding: 15px;
+	}
+
+	.invisible {
+		visibility: hidden;
+	}
+
+	td {
+		font-size: 12pt;
+	}
+
+	th {
+		font-size: 20pt;
+	}
+
+	.space-between {
+		text-align: justify;
+		word-spacing: 40pt;
+	}
+
+	.without-left-border {
+		border-left-color: var(--lightGray);
+	}
+
+	.without-right-border {
+		border-right: none;
+	}
+</style>
+
+</html>

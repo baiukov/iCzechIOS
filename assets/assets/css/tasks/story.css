@@ -1,0 +1,87 @@
+.story-header {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.story-header > img {
+	height: 128px;
+	width: 256px;
+	border-radius: 20px;
+	background-color: var(--blue-bg);
+	object-fit: scale-down;
+}
+
+.sound-box {
+	display: flex;
+	gap: 10px;
+}
+
+.icon {
+	width: 25px;
+	height: 25px;
+}
+
+.stories {
+	padding-top: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.story, .narrator-story {
+	display: flex;
+	gap: 5px;
+}
+
+.story-reversed {
+	flex-direction: row-reverse;
+}
+
+.header {
+	background-color: var(--background-color);
+}
+
+p {
+	margin: 0;
+	font-size: 14pt;
+}
+
+.translation {
+	position: absolute;
+	transform: translateY(-140%);
+	background-color: var(--bg-color);
+	padding: 10px;
+	border: 2px solid var(--blue-bg);
+	border-radius: 5px;
+}
+
+.translation-cloud {
+	width: 15px;
+	height: 15px;
+	z-index: 1;
+	background-color: var(--bg-color);
+	border-bottom: 2px solid var(--blue-bg);
+	border-right: 2px solid var(--blue-bg);
+	position: absolute;
+	transform: translateY(2px) rotate(45deg);
+}
+
+.character {
+	width: 40px;
+	height: 40px;
+}
+
+.story-question {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.story-question > .option {
+	width: 75%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 10px;
+}

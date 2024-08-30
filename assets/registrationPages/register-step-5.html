@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel='stylesheet' href='../assets/css/all.css'>
+	<link rel='stylesheet' href='../assets/css/registration.css'>
+	<script src="../assets/js/jquery.min.js"></script>
+	<script src='../assets/js/main.js'></script>
+	<script src='../assets/js/registration.js'></script>
+</head>
+
+<body>
+	<div class='header'>
+		<div class='elements'>
+			<div class='icon' id='close'>
+				<img src='../assets/images/close.svg'>
+			</div>
+
+			<div class='progress-bar-border'>
+				<div class='progress-bar'>
+					<div class='highlight'></div>
+				</div>
+			</div>
+
+			<div class='header-block'>
+				<div class='icon'>
+					<img src='../assets/images/heart.svg'>
+				</div>
+				<p id='hearts'>100</p>
+			</div>
+		</div>
+	</div>
+
+	<div class='main-wrapper'>
+		<div class='main'>
+			<h1 class='main-header' id='registration'>Зарегистрироваться</h1>
+			<div class='fields'>
+				<div class='field-wrapper'>
+					<div class='field'>
+						<input type='text' id='login' placeholder='Имя пользователя'>
+						<div class="clear-button" id='loginClear'>
+							<img class="icon" src='../assets/images/close.svg'>
+						</div>
+					</div>
+					<div class='field-error' id='loginError'>
+						<img class='icon' src='../assets/images/registration/warn.svg'>
+						<p>Ошибка при вводе логина</p>
+					</div>
+				</div>
+				<div class='field-wrapper'>
+					<div class='field'>
+						<input type='email' id='email' placeholder='Почта'>
+						<div class="clear-button" id='emailClear'>
+							<img class="icon" src='../assets/images/close.svg'>
+						</div>
+					</div>
+					<div class='field-error' id='emailError'>
+						<img class='icon' src='../assets/images/registration/warn.svg'>
+						<p>Ошибка при вводе почты</p>
+					</div>
+				</div>
+				<div class='field-wrapper'>
+					<div class='field'>
+						<input type='password' id='password' placeholder='Пароль'>
+						<div class="clear-button" id='passwordClear'>
+							<img class="icon" src='../assets/images/close.svg'>
+						</div>
+					</div>
+					<div class='field-error' id='passwordError'>
+						<img class='icon' src='../assets/images/registration/warn.svg'>
+						<p>Пароли должен содержать маленькую букву</p>
+					</div>
+				</div>
+				<div class='field-wrapper'>
+					<div class='field'>
+						<input type='password' id='passwordRepeat' placeholder='Повторить пароль'>
+						<div class="clear-button" id='passwordRepeatClear'>
+							<img class="icon" src='../assets/images/close.svg'>
+						</div>
+					</div>
+					<div class='field-error' id='passwordRepeatError'>
+						<img class='icon' src='../assets/images/registration/warn.svg'>
+						<p>Пароли не совпадают</p>
+					</div>
+				</div>
+				<div class='field'>
+					<input type='text' id='age' placeholder='Возраст'>
+					<div class="clear-button" id='ageClear'>
+						<img class="icon" src='../assets/images/close.svg'>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class='footer'>
+		<div class='button submit main' id='finish'>
+			<p>Создать аккаунт</p>
+		</div>
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+.main {
+	padding-bottom: 150px;
+}
+
+.main > .thick-title {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}

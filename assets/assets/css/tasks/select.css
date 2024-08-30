@@ -1,0 +1,29 @@
+.main {
+	padding-bottom: 150px;
+}
+
+.main > .thick-title {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.options-lists {
+	display: flex;
+	justify-content: space-around;
+}
+
+.options-list {
+	width: 45%;
+	gap: 20px;
+	padding-top: 20px;
+}
+
+.option {
+	height: 60px;
+	font-weight: 300;
+	padding: 2px 5px 2px 5px;
+}
+
+.option > p {
+	font-size: 12pt;
+}

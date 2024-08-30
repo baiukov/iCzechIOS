@@ -1,0 +1,2116 @@
+task-1:
+  type: CHOOSE_FROM_LIST
+  text: "..... jsem Tomáš"
+  options: [ "Já", "Ty", "Vy", "Oni" ]
+  answer: "Já"
+
+# lecture 1
+# exercise 1
+task-3:
+  type: WORDS
+  words:
+    - word:
+      name: "Ano"
+      translation: "lang:_yes"
+      picture: "yes.svg"
+    - word:
+      name: "Ne"
+      translation: "lang:_no"
+      picture: "no.svg"
+    - word:
+      name: "Ahoj/Čau/Nazdar"
+      translation: "lang:hi"
+      picture: "hi.svg"
+    - word:
+      name: "Dobrý den"
+      translation: "lang:hello"
+      picture: "handshake.svg"
+    - word:
+      name: "Dobré ráno"
+      translation: "lang:good_morning"
+      picture: "morning.png"
+    - word:
+      name: "Dobrý večer"
+      translation: "lang:good_evening"
+      picture: "evening.png"
+    - word:
+      name: "Jak se máš?"
+      translation: "lang:how_are_you"
+      picture: "how_are_you.png"
+    - word:
+      name: "Výborně/Skvěle"
+      translation: "lang:great"
+      picture: "cool.svg"
+    - word:
+      name: "Dobře"
+      translation: "lang:good"
+      picture: "good.svg"
+    - word:
+      name: "Jde to"
+      translation: "lang:its_ok"
+      picture: "ok.svg"
+    - word:
+      name: "Špatně"
+      translation: "lang:frowning"
+      picture: "frowning.svg"
+  answer: ""
+task-4:
+  type: CHOOSE_FROM_LIST
+  isSound: 0
+  text: "lang:hello"
+  options: [ "Ahoj", "Dobré ráno", "Dobrý den", "Dobrý večer" ]
+  answer: "Dobrý den"
+task-6:
+  type: CHOOSE_FROM_PICS
+  word: "Dobrý večer"
+  isSound: 68
+  cards:
+    - card:
+      translation: "lang:good_evening"
+      picture: "evening.png"
+    - card:
+      translation: "lang:good_morning"
+      picture: "morning.png"
+    - card:
+      translation: "lang:hello"
+      picture: "handshake.svg"
+    - card:
+      translation: "lang:hi"
+      picture: "hi.svg"
+  answer: "lang:good_evening"
+task-7:
+  type: CHOOSE_FROM_LIST
+  isSound: 0
+  text: "lang:its_ok"
+  options: [ "Jde to", "Dobře", "Špatně", "Výborně/Skvěle" ]
+  answer: "Jde to"
+task-8:
+  type: SPEAK
+  answer: "Opera"
+task-9:
+  type: SELECT
+  isSound: 91
+  pairs:
+    - [ "Dobře", "lang:good" ]
+    - [ "Jde to", "lang:its_ok" ]
+    - [ "Špatně", "lang:frowning" ]
+    - [ "Výborně/Skvěle", "lang:great" ]
+    - [ "Jak se máš?", "lang:how_are_you" ]
+  answer: ""
+task-10:
+  type: CHOOSE_FROM_PICS
+  isSound: 100
+  word: "Ne"
+  cards:
+    - card:
+      translation: "lang:hi"
+      picture: "yes.svg"
+    - card:
+      translation: "lang:good_evening"
+      picture: "evening.png"
+    - card:
+      translation: "lang:good_morning"
+      picture: "morning.png"
+    - card:
+      translation: "lang:_no"
+      picture: "no.svg"
+  answer: "lang:_no"
+task-11:
+  type: CHOOSE_FROM_LIST
+  isSound: 0
+  text: "lang:good_evening"
+  options: [ "Dobrý večer", "Dobrý den", "Dobré ráno", "Dobře" ]
+  answer: "Dobrý večer"
+task-12:
+  type: CHOOSE_FROM_PICS
+  word: "Jde to"
+  isSound: 21
+  cards:
+    - card:
+      translation: "lang:its_ok"
+      picture: "ok.svg"
+    - card:
+      translation: "lang:good_morning"
+      picture: "morning.png"
+    - card:
+      translation: "lang:hello"
+      picture: "handshake.svg"
+    - card:
+      translation: "lang:hi"
+      picture: "hi.svg"
+  answer: "lang:its_ok"
+task-13:
+  type: SELECT
+  isSound: 16
+  pairs:
+    - [ "Ahoj/Čau/Nazdar", "lang:hi" ]
+    - [ "Dobrý den", "lang:hello" ]
+    - [ "Dobrý večer", "lang:good_evening" ]
+    - [ "Dobré ráno", "lang:good_morning" ]
+  answer: ""
+task-14:
+  type: CHOOSE_FROM_PICS
+  word: "Ahoj/Čau/Nazdar"
+  isSound: 15
+  cards:
+    - card:
+      translation: "lang:good_evening"
+      picture: "evening.png"
+    - card:
+      translation: "lang:good_morning"
+      picture: "morning.png"
+    - card:
+      translation: "lang:hello"
+      picture: "handshake.svg"
+    - card:
+      translation: "lang:hi"
+      picture: "hi.svg"
+  answer: "lang:hi"
+task-15:
+  type: CHOOSE_FROM_PICS
+  word: "Dobré ráno"
+  isSound: 22
+  cards:
+    - card:
+      translation: "lang:good_evening"
+      picture: "evening.png"
+    - card:
+      translation: "lang:good_morning"
+      picture: "morning.png"
+    - card:
+      translation: "lang:hello"
+      picture: "handshake.svg"
+    - card:
+      translation: "lang:hi"
+      picture: "hi.svg"
+  answer: "lang:good_morning"
+
+# exercise 2
+task-16:
+  type: CHOOSE_FROM_LIST
+  isSound: 0
+  text: "lang:hello"
+  options: [ "Dobrý večer", "Dobrý den", "Dobré ráno", "Dobře" ]
+  answer: "Dobrý den"
+task-17:
+  type: SELECT
+  isSound: 24
+  pairs:
+    - [ "Ano", "lang:_yes" ]
+    - [ "Ne", "lang:_no" ]
+    - [ "Jak se máš?", "lang:how_are_you" ]
+    - [ "Dobré ráno", "lang:good_morning" ]
+  answer: ""
+task-18:
+  type: CHOOSE_FROM_PICS
+  isSound: 29
+  word: "Jde to"
+  cards:
+    - card:
+      translation: "lang:its_ok"
+      picture: "ok.svg"
+    - card:
+      translation: "lang:good"
+      picture: "good.svg"
+    - card:
+      translation: "lang:great"
+      picture: "cool.svg"
+    - card:
+      translation: "lang:hello"
+      picture: "handshake.svg"
+  answer: "lang:its_ok"
+task-19:
+  type: CHOOSE_FROM_LIST
+  isSound: 0
+  text: "lang:frowning"
+  options: [ "Špatně", "Dobře", "Jde to", "Fajn" ]
+  answer: "Špatně"
+task-20:
+  type: CHOOSE_FROM_PICS
+  isSound: 84
+  word: "Výborně/Skvěle"
+  cards:
+    - card:
+      translation: "lang:its_ok"
+      picture: "ok.svg"
+    - card:
+      translation: "lang:good"
+      picture: "good.svg"
+    - card:
+      translation: "lang:great"
+      picture: "cool.svg"
+    - card:
+      translation: "lang:hello"
+      picture: "handshake.svg"
+  answer: "lang:great"
+task-21:
+  type: CHOOSE_FROM_PICS
+  isSound: 86
+  word: "Dobré ráno"
+  cards:
+    - card:
+      translation: "lang:good_morning"
+      picture: "morning.png"
+    - card:
+      translation: "lang:good_evening"
+      picture: "evening.png"
+    - card:
+      translation: "lang:hi"
+      picture: "hi.svg"
+    - card:
+      translation: "lang:hello"
+      picture: "handshake.svg"
+  answer: "lang:good_morning"
+task-22:
+  type: CHOOSE_FROM_LIST
+  isSound: 0
+  text: "Dobré ráno"
+  options: [ "lang:good_morning", "lang:good_evening", "lang:hello", "lang:hi" ]
+  answer: "lang:good_morning"
+task-23:
+  type: SPEAK
+  answer: "Svetr"
+task-24:
+  type: SPEAK
+  answer: "Ulice"
+task-25:
+  type: CHOOSE_FROM_PICS
+  isSound: 31
+  word: "Ahoj/Čau/Nazdar"
+  cards:
+    - card:
+      translation: "lang:good_morning"
+      picture: "morning.png"
+    - card:
+      translation: "lang:good_evening"
+      picture: "evening.png"
+    - card:
+      translation: "lang:hi"
+      picture: "hi.svg"
+    - card:
+      translation: "lang:hello"
+      picture: "handshake.svg"
+  answer: "lang:hi"
+task-26:
+  type: CHOOSE_FROM_LIST
+  isSound: 2
+  text: "Ano"
+  options: [ "lang:_yes", "lang:_no", "lang:hello", "lang:hi" ]
+  answer: "lang:_yes"
+task-27:
+  type: SPEAK
+  answer: "Slečna"
+task-28:
+  type: CHOOSE_FROM_PICS
+  isSound: 23
+  word: "Ne"
+  cards:
+    - card:
+      translation: "lang:_no"
+      picture: "no.svg"
+    - card:
+      translation: "lang:_yes"
+      picture: "yes.svg"
+    - card:
+      translation: "lang:hi"
+      picture: "hi.svg"
+    - card:
+      translation: "lang:hello"
+      picture: "handshake.svg"
+  answer: "lang:_no"
+task-29:
+  type: SELECT
+  isSound: 91
+  pairs:
+    - [ "Dobře", "lang:good" ]
+    - [ "Jde to", "lang:its_ok" ]
+    - [ "Špatně", "lang:frowning" ]
+    - [ "Výborně/Skvěle", "lang:great" ]
+    - [ "Jak se máš?", "lang:how_are_you" ]
+  answer: ""
+task-30:
+  type: CHOOSE_FROM_PICS
+  isSound: 0
+  word: "lang:hello"
+  cards:
+    - card:
+      translation: "Ahoj"
+      picture: "hi.svg"
+    - card:
+      translation: "Čau"
+      picture: "hi.png"
+    - card:
+      translation: "Dobrý den"
+      picture: "morning.png"
+    - card:
+      translation: "Dobré ráno"
+      picture: "morning.png"
+  answer: "Dobrý den"
+
+# exercise 3
+task-31:
+  type: CHOOSE_FROM_LIST
+  isSound: 25
+  text: "Ano"
+  options: [ "lang:_yes", "lang:_no", "lang:hello", "lang:hi" ]
+  answer: "lang:_yes"
+task-32:
+  type: CHOOSE_FROM_LIST
+  isSound: 25
+  text: "Špatně"
+  options: [ "lang:frowning", "lang:its_ok", "lang:good", "lang:good_evening" ]
+  answer: "lang:frowning"
+task-33:
+  type: CHOOSE_FROM_PICS
+  isSound: 65
+  word: "Dobrý večer"
+  cards:
+    - card:
+      translation: "lang:hi"
+      picture: "hi.svg"
+    - card:
+      translation: "lang:good_evening"
+      picture: "evening.png"
+    - card:
+      translation: "lang:hello"
+      picture: "morning.png"
+    - card:
+      translation: "lang:good_morning"
+      picture: "handshake.svg"
+  answer: "lang:good_evening"
+task-34:
+  type: SELECT
+  isSound: 35
+  pairs:
+    - [ "Dobré ráno", "lang:good_morning" ]
+    - [ "Dobrý večer", "lang:good_evening" ]
+    - [ "Ano", "lang:_yes" ]
+    - [ "Ahoj/Čau/Nazdar", "lang:hi" ]
+    - [ "Dobrý den", "lang:hello" ]
+  answer: ""
+task-35:
+  type: SPEAK
+  answer: "Kečup"
+task-36:
+  type: CHOOSE_FROM_LIST
+  isSound: 0
+  text: "lang:great"
+  options: [ "Výborně", "Dobře", "Dobrý den", "Špatně" ]
+  answer: "Výborně"
+task-37:
+  type: CHOOSE_FROM_PICS
+  isSound: 65
+  word: "Dobrý večer"
+  cards:
+    - card:
+      translation: "lang:hi"
+      picture: "hi.svg"
+    - card:
+      translation: "lang:good_evening"
+      picture: "evening.png"
+    - card:
+      translation: "lang:hello"
+      picture: "handshake.svg"
+    - card:
+      translation: "lang:good_morning"
+      picture: "morning.png"
+  answer: "lang:good_evening"
+task-38:
+  type: CHOOSE_FROM_LIST
+  isSound: 55
+  text: "Dobré ráno"
+  options: [ "lang:good_morning", "lang:hello", "lang:hi", "lang:good_evening" ]
+  answer: "lang:good_morning"
+task-39:
+  type: CHOOSE_FROM_LIST
+  isSound: 75
+  text: "Ne"
+  options: [ "lang:_no", "lang:_yes", "lang:hi", "lang:good_evening" ]
+  answer: "lang:_no"
+task-40:
+  type: CHOOSE_FROM_PICS
+  isSound: 45
+  word: "Jak se máš?"
+  cards:
+    - card:
+      translation: "lang:how_are_you"
+      picture: "how_are_you.png"
+    - card:
+      translation: "lang:hi"
+      picture: "hi.svg"
+    - card:
+      translation: "lang:good_morning"
+      picture: "morning.png"
+    - card:
+      translation: "lang:hello"
+      picture: "handshake.svg"
+  answer: "lang:how_are_you"
+task-41:
+  type: CHOOSE_FROM_LIST
+  isSound: 0
+  text: "lang:its_ok"
+  options: [ "Jde to", "Dobře", "Výborně", "Skvělé" ]
+  answer: "Jde to"
+task-42:
+  type: CHOOSE_FROM_PICS
+  isSound: 70
+  word: "Výborně"
+  cards:
+    - card:
+      translation: "lang:great"
+      picture: "cool.svg"
+    - card:
+      translation: "lang:good"
+      picture: "good.svg"
+    - card:
+      translation: "lang:its_ok"
+      picture: "ok.svg"
+    - card:
+      translation: "lang:how_are_you"
+      picture: "how_are_you.png"
+  answer: "lang:great"
+task-43:
+  type: SPEAK
+  answer: "Hotel"
+task-44:
+  type: CHOOSE_FROM_PICS
+  isSound: 70
+  word: "Dobře"
+  cards:
+    - card:
+      translation: "lang:great"
+      picture: "cool.svg"
+    - card:
+      translation: "lang:good"
+      picture: "good.svg"
+    - card:
+      translation: "lang:its_ok"
+      picture: "ok.svg"
+    - card:
+      translation: "lang:how_are_you"
+      picture: "how_are_you.png"
+  answer: "lang:good"
+
+# exercise 4
+task-45:
+  type: SELECT
+  isSound: 91
+  pairs:
+    - [ "Dobře", "lang:good" ]
+    - [ "Jde to", "lang:its_ok" ]
+    - [ "Špatně", "lang:frowning" ]
+    - [ "Výborně/Skvěle", "lang:great" ]
+    - [ "Jak se máš?", "lang:how_are_you" ]
+  answer: ""
+task-46:
+  type: CHOOSE_FROM_LIST
+  isSound: 0
+  text: "lang:hello"
+  options: [ "Ahoj", "Dobré ráno", "Dobrý den", "Dobrý večer" ]
+  answer: "Dobrý den"
+task-47:
+  type: CHOOSE_FROM_PICS
+  word: "Dobré ráno"
+  isSound: 86
+  cards:
+    - card:
+      translation: "lang:good_evening"
+      picture: "evening.png"
+    - card:
+      translation: "lang:good_morning"
+      picture: "morning.png"
+    - card:
+      translation: "lang:hello"
+      picture: "handshake.svg"
+    - card:
+      translation: "lang:hi"
+      picture: "hi.svg"
+  answer: "lang:good_morning"
+task-48:
+  type: CHOOSE_FROM_LIST
+  isSound: 0
+  text: "lang:its_ok"
+  options: [ "Jde to", "Dobře", "Špatně", "Výborně/Skvěle" ]
+  answer: "Jde to"
+task-49:
+  type: SPEAK
+  answer: "Květina"
+task-50:
+  type: SELECT
+  isSound: 15
+  pairs:
+    - [ "Dobře", "lang:good" ]
+    - [ "Jde to", "lang:its_ok" ]
+    - [ "Špatně", "lang:frowning" ]
+    - [ "Výborně/Skvěle", "lang:great" ]
+    - [ "Jak se máš?", "lang:how_are_you" ]
+  answer: ""
+task-51:
+  type: CHOOSE_FROM_PICS
+  isSound: 100
+  word: "Ne"
+  cards:
+    - card:
+      translation: "lang:hi"
+      picture: "yes.svg"
+    - card:
+      translation: "lang:good_evening"
+      picture: "evening.png"
+    - card:
+      translation: "lang:good_morning"
+      picture: "morning.png"
+    - card:
+      translation: "lang:_no"
+      picture: "no.svg"
+  answer: "lang:_no"
+task-52:
+  type: CHOOSE_FROM_LIST
+  isSound: 0
+  text: "lang:good_evening"
+  options: [ "Dobrý večer", "Dobrý den", "Dobré ráno", "Dobře" ]
+  answer: "Dobrý večer"
+task-53:
+  type: CHOOSE_FROM_PICS
+  word: "Jde to"
+  isSound: 21
+  cards:
+    - card:
+      translation: "lang:its_ok"
+      picture: "ok.svg"
+    - card:
+      translation: "lang:good_morning"
+      picture: "morning.png"
+    - card:
+      translation: "lang:hello"
+      picture: "handshake.svg"
+    - card:
+      translation: "lang:hi"
+      picture: "hi.svg"
+  answer: "lang:its_ok"
+task-54:
+  type: SELECT
+  isSound: 16
+  pairs:
+    - [ "Ahoj/Čau/Nazdar", "lang:hi" ]
+    - [ "Dobrý den", "lang:hello" ]
+    - [ "Dobrý večer", "lang:good_evening" ]
+    - [ "Dobré ráno", "lang:good_morning" ]
+  answer: ""
+task-55:
+  type: CHOOSE_FROM_PICS
+  word: "Dobré ráno"
+  isSound: 22
+  cards:
+    - card:
+      translation: "lang:good_evening"
+      picture: "evening.png"
+    - card:
+      translation: "lang:good_morning"
+      picture: "morning.png"
+    - card:
+      translation: "lang:hello"
+      picture: "handshake.svg"
+    - card:
+      translation: "lang:hi"
+      picture: "hi.svg"
+  answer: "lang:good_morning"
+task-56:
+  type: CHOOSE_FROM_LIST
+  isSound: 0
+  text: "lang:frowning"
+  options: [ "Špatně", "Dobře", "Jde to", "Fajn" ]
+  answer: "Špatně"
+task-57:
+  type: SPEAK
+  answer: "Divadlo"
+task-58:
+  type: CHOOSE_FROM_PICS
+  isSound: 23
+  word: "Ne"
+  cards:
+    - card:
+      translation: "lang:_no"
+      picture: "no.svg"
+    - card:
+      translation: "lang:_yes"
+      picture: "yes.svg"
+    - card:
+      translation: "lang:hi"
+      picture: "hi.svg"
+    - card:
+      translation: "lang:hello"
+      picture: "handshake.svg"
+  answer: "lang:_no"
+task-59:
+  type: CHOOSE_FROM_LIST
+  isSound: 2
+  text: "Ano"
+  options: [ "lang:_yes", "lang:_no", "lang:hello", "lang:hi" ]
+  answer: "lang:_yes"
+task-60:
+  type: SELECT
+  isSound: 91
+  pairs:
+    - [ "Dobře", "lang:good" ]
+    - [ "Jde to", "lang:its_ok" ]
+    - [ "Špatně", "lang:frowning" ]
+    - [ "Výborně/Skvěle", "lang:great" ]
+    - [ "Jak se máš?", "lang:how_are_you" ]
+  answer: ""
+
+# lesson 2
+task-61:
+  type: WORDS
+  words:
+    - word:
+      name: "Odkud jste?"
+      translation: "lang:where_are_You_from"
+      picture: "where_are_you_from_formal.svg"
+    - word:
+      name: "Odkud jsi?"
+      translation: "lang:where_are_you_from"
+      picture: "where_are_you_from_informal.svg"
+    - word:
+      name: "Kolik je Vám let?"
+      translation: "lang:how_old_are_You"
+      picture: "how_old_are_you_formal.svg"
+    - word:
+      name: "Kolik je ti let?"
+      translation: "lang:how_old_are_you"
+      picture: "how_old_are_you_informal.svg"
+    - word:
+      name: "Je mi ... let"
+      translation: "lang:I_am__old"
+      picture: "I_am__old.svg"
+    - word:
+      name: "Jak se jmenujete?"
+      translation: "lang:what_is_Your_name"
+      picture: "what_is_your_name_formal.svg"
+    - word:
+      name: "Jak se jmenuješ?"
+      translation: "lang:what_is_your_name"
+      picture: "what_is_your_name_informal.svg"
+    - word:
+      name: "Jmenuji se ..."
+      translation: "lang:my_name_is"
+      picture: "my_name_is.svg"
+    - word:
+      name: "Těší mě"
+      translation: "lang:nice_to_meet_you"
+      picture: "nice_to_meet_you.svg"
+    - word:
+      name: "Děkuju"
+      translation: "lang:thank_you"
+      picture: "thank_you.svg"
+    - word:
+      name: "Prosím"
+      translation: "lang:here_you_are"
+      picture: "here_you_are.svg"
+    - word:
+      name: "Promiň (-te)"
+      translation: "lang:sorry_You"
+      picture: "sorry.svg"
+    - word:
+      name: "Nic se nestalo"
+      translation: "lang:nothing_happened"
+      picture: "nothing_happened.svg"
+  answer: ""
+task-63:
+  type: CHOOSE_FROM_PICS
+  word: "Odkud jsi?"
+  isSound: 25
+  cards:
+    - card:
+      translation: "lang:where_are_you_from"
+      picture: "where_are_you_from_informal.svg"
+    - card:
+      translation: "lang:how_old_are_you"
+      picture: "how_old_are_you_informal.svg"
+    - card:
+      translation: "lang:what_is_your_name"
+      picture: "what_is_your_name_informal.svg"
+    - card:
+      translation: "lang:I_am__old"
+      picture: "I_am__old.svg"
+  answer: "lang:where_are_you_from"
+task-64:
+  type: SELECT
+  isSound: 25
+  pairs:
+    - [ "Odkud jste?", "lang:where_are_You_from" ]
+    - [ "Odkud jsi?", "lang:where_are_you_from" ]
+    - [ "Kolik je Vám let?", "lang:how_old_are_You" ]
+    - [ "Kolik je ti let?", "lang:how_old_are_you" ]
+    - [ "Je mi ... let", "lang:I_am__old" ]
+  answer: ""
+task-65:
+  type: SPEAK
+  answer: "květina"
+task-66:
+  type: CHOOSE_FROM_LIST
+  isSound: 0
+  text: "lang:what_is_Your_name"
+  options: [ "Jak se jmenujete?", "Kolik je Vám let?", "Odkud jste?", "Je mi ... let" ]
+  answer: "Jak se jmenujete?"
+task-67:
+  type: CHOOSE_FROM_PICS
+  word: "Ahoj/Čau/Nazdar"
+  isSound: 15
+  cards:
+    - card:
+      translation: "lang:good_evening"
+      picture: "evening.png"
+    - card:
+      translation: "lang:good_morning"
+      picture: "morning.png"
+    - card:
+      translation: "lang:hello"
+      picture: "handshake.svg"
+    - card:
+      translation: "lang:hi"
+      picture: "hi.svg"
+  answer: "lang:hi"
+task-68:
+  type: SELECT
+  isSound: 15
+  pairs:
+    - [ "Jak se jmenujete?", "lang:what_is_Your_name" ]
+    - [ "Jak se jmenuješ?", "lang:what_is_your_name" ]
+    - [ "Jmenuji se ...", "lang:my_name_is" ]
+    - [ "Těší mě", "lang:nice_to_meet_you" ]
+  answer: ""
+task-69:
+  type: CHOOSE_FROM_PICS
+  word: "Prosím"
+  isSound: 75
+  cards:
+    - card:
+      picture: "here_you_are.svg"
+      translation: "lang:here_you_are"
+    - card:
+      picture: "sorry.svg"
+      translation: "lang:sorry_You"
+    - card:
+      picture: "thank_you.svg"
+      translation: "lang:thank_you"
+    - card:
+      picture: "nice_to_meet_you.svg"
+      translation: "lang:nice_to_meet_you"
+  answer: "lang:here_you_are"
+task-70:
+  type: CHOOSE_FROM_LIST
+  isSound: 50
+  text: "Kolik je Vám let?"
+  options: ["lang:how_old_are_You", "lang:where_are_you_from", "lang:I_am__old", "lang:where_are_you_from"]
+  answer: "lang:how_old_are_You"
+task-71:
+  type: CHOOSE_FROM_PICS
+  isSound: 50
+  word: "Jmenuji se ..."
+  cards:
+    - card:
+      translation: "lang:my_name_is"
+      picture: "my_name_is.svg"
+    - card:
+      translation: "lang:I_am__old"
+      picture: "I_am__old.svg"
+    - card:
+      translation: "lang:thank_you"
+      picture: "thank_you.svg"
+    - card:
+      translation: "lang:sorry_You"
+      picture: "sorry.svg"
+  answer: "lang:my_name_is"
+task-72:
+  type: CHOOSE_FROM_PICS
+  isSound: 65
+  word: "Dobrý večer"
+  cards:
+    - card:
+      translation: "lang:hi"
+      picture: "hi.svg"
+    - card:
+      translation: "lang:good_evening"
+      picture: "evening.png"
+    - card:
+      translation: "lang:hello"
+      picture: "handshake.svg"
+    - card:
+      translation: "lang:good_morning"
+      picture: "morning.png"
+  answer: "lang:good_evening"
+task-73:
+  type: CHOOSE_FROM_LIST
+  isSound: 75
+  text: "Promiň (-te)"
+  options: [ "lang:sorry_You", "lang:here_you_are", "lang:thank_you", "lang:my_name_is" ]
+  answer: "lang:sorry_You"
+task-74:
+  type: SPEAK
+  answer: "divadlo"
+task-75:
+  type: SELECT
+  isSound: 15
+  pairs:
+    - [ "Děkuju", "lang:thank_you" ]
+    - [ "Prosím", "lang:here_you_are" ]
+    - [ "Promiň (-te)", "lang:sorry_You" ]
+    - [ "Nic se nestalo", "lang:nothing_happened" ]
+  answer: ""
+task-77:
+  type: CHOOSE_FROM_LIST
+  text: "Je mi ... let"
+  isSound: 15
+  options: ["lang:I_am__old", "lang:what_is_Your_name", "lang:my_name_is", "lang:my_name_is"]
+  answer: "lang:I_am__old"
+task-78:
+  type: CHOOSE_FROM_PICS
+  word: "Těší mě"
+  isSound: 50
+  cards:
+    - card:
+      translation: "lang:nice_to_meet_you"
+      picture: "nice_to_meet_you.svg"
+    - card:
+      translation: "lang:thank_you"
+      picture: "thank_you.svg"
+    - card:
+      translation: "lang:sorry_You"
+      picture: "sorry.svg"
+    - card:
+      translation: "lang:here_you_are"
+      picture: "here_you_are.svg"
+  answer: "lang:nice_to_meet_you"
+task-79:
+  type: SPEAK
+  answer: "židle"
+task-80:
+  type: SELECT
+  isSound: 16
+  pairs:
+    - [ "Ahoj/Čau/Nazdar", "lang:hi" ]
+    - [ "Dobrý den", "lang:hello" ]
+    - [ "Dobrý večer", "lang:good_evening" ]
+    - [ "Dobré ráno", "lang:good_morning" ]
+  answer: ""
+task-81:
+  type: CHOOSE_FROM_PICS
+  word: "lang:sorry_You"
+  isSound: 0
+  cards:
+    - card:
+      translation: "Promiň (-te)"
+      picture: "sorry.svg"
+    - card:
+      translation: "Prosím"
+      picture: "here_you_are.svg"
+    - card:
+      translation: "Děkuju"
+      picture: "thank_you.svg"
+    - card:
+      translation: "Nic se nestalo"
+      picture: "nothing_happened.svg"
+  answer: "Promiň (-te)"
+task-82:
+  type: SELECT
+  isSound: 100
+  pairs:
+    - [ "Odkud jste?", "lang:where_are_You_from" ]
+    - [ "Odkud jsi?", "lang:where_are_you_from" ]
+    - [ "Kolik je Vám let?", "lang:how_old_are_You" ]
+    - [ "Kolik je ti let?", "lang:how_old_are_you" ]
+    - [ "Je mi ... let", "lang:I_am__old" ]
+  answer: ""
+task-83:
+  type: CHOOSE_FROM_LIST
+  isSound: 0
+  text: "lang:nice_to_meet_you"
+  options:
+    - "Těší mě"
+    - "Promiň (-te)"
+    - "Prosím"
+    - "Děkuju"
+  answer: "Těší mě"
+task-84:
+  type: SPEAK
+  answer: "náměstí"
+task-85:
+  type: CHOOSE_FROM_PICS
+  word: "lang:nothing_happened"
+  isSound: 0
+  cards:
+    - card:
+      translation: "Promiň (-te)"
+      picture: "sorry.svg"
+    - card:
+      translation: "Prosím"
+      picture: "here_you_are.svg"
+    - card:
+      translation: "Děkuju"
+      picture: "thank_you.svg"
+    - card:
+      translation: "Nic se nestalo"
+      picture: "nothing_happened.svg"
+  answer: "Nic se nestalo"
+task-86:
+  type: SELECT
+  isSound: 91
+  pairs:
+    - [ "Dobře", "lang:good" ]
+    - [ "Jde to", "lang:its_ok" ]
+    - [ "Špatně", "lang:frowning" ]
+    - [ "Výborně/Skvěle", "lang:great" ]
+    - [ "Jak se máš?", "lang:how_are_you" ]
+  answer: ""
+task-87:
+  type: CHOOSE_FROM_PICS
+  word: "lang:thank_you"
+  isSound: 0
+  cards:
+    - card:
+      translation: "Promiň (-te)"
+      picture: "sorry.svg"
+    - card:
+      translation: "Prosím"
+      picture: "here_you_are.svg"
+    - card:
+      translation: "Děkuju"
+      picture: "thank_you.svg"
+    - card:
+      translation: "Nic se nestalo"
+      picture: "nothing_happened.svg"
+  answer: "Děkuju"
+task-88:
+  type: SPEAK
+  answer: "pošta"
+task-89:
+  type: CHOOSE_FROM_LIST
+  text: "lang:how_old_are_you"
+  isSound: 0
+  options:
+    - "Kolik je ti let?"
+    - "Jak se jmenuješ?"
+    - "Odkud jsi?"
+    - "Je mi ... let"
+  answer: "Kolik je ti let?"
+task-90:
+  type: CHOOSE_FROM_PICS
+  word: "Odkud jsi?"
+  isSound: 0
+  cards:
+    - card:
+      translation: "lang:where_are_you_from"
+      picture: "where_are_you_from_informal.svg"
+    - card:
+      translation: "lang:how_old_are_you"
+      picture: "how_old_are_you_informal.svg"
+    - card:
+      translation: "lang:what_is_your_name"
+      picture: "what_is_your_name_informal.svg"
+    - card:
+      translation: "lang:I_am__old"
+      picture: "I_am__old.svg"
+  answer: "lang:where_are_you_from"
+task-91:
+  type: SELECT
+  isSound: 75
+  pairs:
+    - [ "Jak se jmenujete?", "lang:what_is_Your_name" ]
+    - [ "Jak se jmenuješ?", "lang:what_is_your_name" ]
+    - [ "Jmenuji se ...", "lang:my_name_is" ]
+    - [ "Těší mě", "lang:nice_to_meet_you" ]
+  answer: ""
+task-92:
+  type: CHOOSE_FROM_LIST
+  text: "lang:here_you_are"
+  isSound: 0
+  options:
+    - "Prosím"
+    - "Děkuju"
+    - "Promiň (-te)"
+    - "Nic se nestalo"
+  answer: "Prosím"
+task-93:
+  type: SPEAK
+  answer: "Svetr"
+task-94:
+  type: SPEAK
+  answer: "moře"
+task-95:
+  type: CHOOSE_FROM_PICS
+  isSound: 0
+  word: "lang:thank_you"
+  cards:
+    - card:
+      translation: "lang:my_name_is"
+      picture: "my_name_is.svg"
+    - card:
+      translation: "lang:I_am__old"
+      picture: "I_am__old.svg"
+    - card:
+      translation: "lang:thank_you"
+      picture: "thank_you.svg"
+    - card:
+      translation: "lang:sorry_You"
+      picture: "sorry.svg"
+  answer: "lang:thank_you"
+task-96:
+  type: SELECT
+  isSound: 75
+  pairs:
+    - [ "Odkud jste?", "lang:where_are_You_from" ]
+    - [ "Odkud jsi?", "lang:where_are_you_from" ]
+    - [ "Kolik je Vám let?", "lang:how_old_are_You" ]
+    - [ "Kolik je ti let?", "lang:how_old_are_you" ]
+    - [ "Je mi ... let", "lang:I_am__old" ]
+  answer: ""
+task-97:
+  type: CHOOSE_FROM_PICS
+  isSound: 84
+  word: "Výborně/Skvěle"
+  cards:
+    - card:
+      translation: "lang:its_ok"
+      picture: "ok.svg"
+    - card:
+      translation: "lang:good"
+      picture: "good.svg"
+    - card:
+      translation: "lang:great"
+      picture: "cool.svg"
+    - card:
+      translation: "lang:hello"
+      picture: "handshake.svg"
+  answer: "lang:great"
+task-98:
+  type: CHOOSE_FROM_PICS
+  isSound: 0
+  word: "lang:thank_you"
+  cards:
+    - card:
+      translation: "Promiň (-te)"
+      picture: "sorry.svg"
+    - card:
+      translation: "Prosím"
+      picture: "here_you_are.svg"
+    - card:
+      translation: "Děkuju"
+      picture: "thank_you.svg"
+    - card:
+      translation: "Nic se nestalo"
+      picture: "nothing_happened.svg"
+  answer: "Děkuju"
+task-99:
+  type: SPEAK
+  answer: "tramvaj"
+task-100:
+  type: CHOOSE_FROM_LIST
+  text: "Děkuju"
+  isSound: 100
+  options:
+    - "lang:thank_you"
+    - "lang:sorry_You"
+    - "lang:here_you_are"
+    - "lang:nothing_happened"
+  answer: "lang:thank_you"
+task-101:
+  type: CHOOSE_FROM_PICS
+  word: "Jde to"
+  isSound: 21
+  cards:
+    - card:
+      translation: "lang:its_ok"
+      picture: "ok.svg"
+    - card:
+      translation: "lang:good_morning"
+      picture: "morning.png"
+    - card:
+      translation: "lang:hello"
+      picture: "handshake.svg"
+    - card:
+      translation: "lang:hi"
+      picture: "hi.svg"
+  answer: "lang:its_ok"
+task-102:
+  type: CHOOSE_FROM_PICS
+  word: "Těší mě"
+  isSound: 75
+  cards:
+    - card:
+      translation: "lang:nice_to_meet_you"
+      picture: "nice_to_meet_you.svg"
+    - card:
+      translation: "lang:thank_you"
+      picture: "thank_you.svg"
+    - card:
+      translation: "lang:sorry_You"
+      picture: "sorry.svg"
+    - card:
+      translation: "lang:here_you_are"
+      picture: "here_you_are.svg"
+  answer: "lang:nice_to_meet_you"
+task-103:
+  type: CHOOSE_FROM_LIST
+  text: "lang:my_name_is"
+  isSound: 0
+  options:
+    - "Je mi ... let"
+    - "Kolik je ti let?"
+    - "Jmenuju se ..."
+    - "Jak se jmenuješ?"
+  answer: "Jmenuju se ..."
+task-104:
+  type: CHOOSE_FROM_PICS
+  word: "Jak se jmenuješ?"
+  isSound: 100
+  cards:
+    - card:
+      translation: "lang:what_is_your_name"
+      picture: "what_is_your_name_informal.svg"
+    - card:
+      translation: "lang:I_am__old"
+      picture: "I_am__old.svg"
+    - card:
+      translation: "lang:thank_you"
+      picture: "thank_you.svg"
+    - card:
+      translation: "lang:sorry_You"
+      picture: "sorry.svg"
+  answer: "lang:what_is_your_name"
+task-105:
+  type: SPEAK
+  answer: "letadlo"
+task-106:
+  type: CHOOSE_FROM_LIST
+  text: "lang:sorry_You"
+  isSound: 0
+  options:
+    - "Promiň (-te)"
+    - "Nic se nestalo"
+    - "Děkuju"
+    - "Prosím"
+  answer: "Promiň (-te)"
+task-107:
+  type: CHOOSE_FROM_PICS
+  word: "Kolik je ti let?"
+  isSound: 100
+  cards:
+    - card:
+      translation: "lang:what_is_your_name"
+      picture: "what_is_your_name_informal.svg"
+    - card:
+      translation: "lang:I_am__old"
+      picture: "I_am__old.svg"
+    - card:
+      translation: "lang:thank_you"
+      picture: "thank_you.svg"
+    - card:
+      translation: "lang:how_old_are_you"
+      picture: "how_old_are_you_informal.svg"
+  answer: "lang:how_old_are_you"
+task-108:
+  type: SELECT
+  isSound: 15
+  pairs:
+    - [ "Odkud jste?", "lang:where_are_You_from" ]
+    - [ "Odkud jsi?", "lang:where_are_you_from" ]
+    - [ "Kolik je Vám let?", "lang:how_old_are_You" ]
+    - [ "Kolik je ti let?", "lang:how_old_are_you" ]
+    - [ "Je mi ... let", "lang:I_am__old" ]
+  answer: ""
+task-109:
+  type: CHOOSE_FROM_LIST
+  text: "Těší mě"
+  isSound: 100
+  options:
+    - "lang:nice_to_meet_you"
+    - "lang:my_name_is"
+    - "lang:what_is_your_name"
+    - "lang:thank_you"
+  answer: "lang:nice_to_meet_you"
+task-110:
+  type: CHOOSE_FROM_LIST
+  isSound: 75
+  text: "Ne"
+  options: [ "lang:_no", "lang:_yes", "lang:hi", "lang:good_evening" ]
+  answer: "lang:_no"
+task-111:
+  type: CHOOSE_FROM_PICS
+  word: "Kolik je Vám let?"
+  isSound: 100
+  cards:
+    - card:
+      translation: "lang:what_is_your_name"
+      picture: "what_is_your_name_informal.svg"
+    - card:
+      translation: "lang:I_am__old"
+      picture: "I_am__old.svg"
+    - card:
+      translation: "lang:how_old_are_You"
+      picture: "how_old_are_you_formal.svg"
+    - card:
+      translation: "lang:how_old_are_you"
+      picture: "how_old_are_you_informal.svg"
+  answer: "lang:how_old_are_You"
+task-112:
+  type: CHOOSE_FROM_LIST
+  text: "Nic se nestalo"
+  isSound: 75
+  options:
+    - "lang:nothing_happened"
+    - "lang:sorry_You"
+    - "lang:here_you_are"
+    - "lang:thank_you"
+  answer: "lang:nothing_happened"
+task-114:
+  type: CHOOSE_FROM_PICS
+  word: "Odkud jste?"
+  isSound: 100
+  cards:
+    - card:
+      translation: "lang:where_are_You_from"
+      picture: "where_are_you_from_formal.svg"
+    - card:
+      translation: "lang:how_old_are_You"
+      picture: "how_old_are_you_formal.svg"
+    - card:
+      translation: "lang:what_is_Your_name"
+      picture: "what_is_your_name_formal.svg"
+    - card:
+      translation: "lang:nice_to_meet_you"
+      picture: "nice_to_meet_you.svg"
+  answer: "lang:where_are_You_from"
+task-115:
+  type: CHOOSE_FROM_LIST
+  isSound: 0
+  text: "lang:its_ok"
+  options: [ "Jde to", "Dobře", "Výborně", "Skvělé" ]
+  answer: "Jde to"
+task-117:
+  type: CHOOSE_FROM_LIST
+  text: "lang:I_am__old"
+  isSound: 0
+  options:
+    - "Je mi ... let"
+    - "Kolik je ti let?"
+    - "Odkud jsi?"
+    - "Jak se jmenuješ?"
+  answer: "Je mi ... let"
+task-118:
+  type: CHOOSE_FROM_LIST
+  text: "lang:what_is_your_name"
+  isSound: 0
+  options:
+    - "Jak se jmenuješ?"
+    - "Kolik je ti let?"
+    - "Odkud jsi?"
+    - "Je mi ... let"
+  answer: "Jak se jmenuješ?"
+task-120:
+  type: CHOOSE_FROM_LIST
+  text: "lang:where_are_You_from"
+  isSound: 0
+  options: ["Odkud jste?", "Jak se jmenujete?", "Kolik je Vám let?", "Je mi ... let"]
+  answer: "Odkud jste?"
+task-121:
+  type: CHOOSE_FROM_PICS
+  isSound: 75
+  word: "Je mi ... let"
+  cards:
+    - card:
+      translation: "lang:my_name_is"
+      picture: "my_name_is.svg"
+    - card:
+      translation: "lang:I_am__old"
+      picture: "I_am__old.svg"
+    - card:
+      translation: "lang:thank_you"
+      picture: "thank_you.svg"
+    - card:
+      translation: "lang:sorry_You"
+      picture: "sorry.svg"
+  answer: "lang:I_am__old"
+task-119:
+  type: CHOOSE_FROM_PICS
+  isSound: 0
+  word: "Děkuju"
+  cards:
+    - card:
+      translation: "lang:thank_you"
+      picture: "thank_you.svg"
+    - card:
+      translation: "lang:sorry_You"
+      picture: "sorry.svg"
+    - card:
+      translation: "lang:here_you_are"
+      picture: "here_you_are.svg"
+    - card:
+      translation: "lang:nice_to_meet_you"
+      picture: "nice_to_meet_you.svg"
+  answer: "lang:thank_you"
+
+# lesson 3
+# exercise 3
+task-122:
+  type: WORDS
+  words:
+    - word:
+      name: "Česko"
+      translation: "lang:czech"
+      picture: "Czech_republic.svg"
+    - word:
+      name: "Ukrajina"
+      translation: "lang:ukraine"
+      picture: "Ukraine.svg"
+    - word:
+      name: "Rusko"
+      translation: "lang:russia"
+      picture: "Russia.svg"
+    - word:
+      name: "Bělorusko"
+      translation: "lang:belarus"
+      picture: "Belarus.svg"
+    - word:
+      name: "Kazachstán"
+      translation: "lang:kazakhstan"
+      picture: "Kazakhstan.svg"
+    - word:
+      name: "Gruzie"
+      translation: "lang:georgia"
+      picture: "Georgia.svg"
+    - word:
+      name: "Armenie"
+      translation: "lang:armenia"
+      picture: "Armenia.svg"
+    - word:
+      name: "Ázerbájdžán"
+      translation: "lang:azerbaijan"
+      picture: "Azerbaijan.svg"
+    - word:
+      name: "Turkmenistán"
+      translation: "lang:turkmenistan"
+      picture: "Turkmenistan.svg"
+    - word:
+      name: "Tádžikistán"
+      translation: "lang:tajikistan"
+      picture: "Tajikistan.svg"
+    - word:
+      name: "Uzbekistán"
+      translation: "lang:tajikistan"
+      picture: "Uzbekistan.svg"
+  answer: ""
+task-123:
+  type: CHOOSE_FROM_LIST
+  text: "Česko"
+  isSound: 0
+  options:
+    - "lang:czech"
+    - "lang:belarus"
+    - "lang:kazakhstan"
+    - "lang:armenia"
+  answer: "lang:czech"
+task-124:
+  type: CHOOSE_FROM_PICS
+  word: "Ukrajina"
+  isSound: 50
+  cards:
+    - card:
+      translation: "lang:ukraine"
+      picture: "Ukraine.svg"
+    - card:
+      translation: "lang:russia"
+      picture: "Russia.svg"
+    - card:
+      translation: "lang:belarus"
+      picture: "Belarus.svg"
+    - card:
+      translation: "lang:czech"
+      picture: "Czech_republic.svg"
+  answer: "lang:ukraine"
+task-125:
+  type: SELECT
+  isSound: 15
+  pairs:
+    - [ "Rusko", "lang:russia" ]
+    - [ "Ukrajina", "lang:ukraine" ]
+    - [ "Česko", "lang:czech" ]
+    - [ "Bělorusko", "lang:belarus" ]
+task-126:
+  type: CHOOSE_FROM_LIST
+  text: "lang:belarus"
+  isSound: 0
+  options:
+    - "Kazachstán"
+    - "Armenie"
+    - "Bělorusko"
+    - "Ázerbájdžán"
+  answer: "Bělorusko"
+task-127:
+  type: SPEAK
+  answer: "Kniha"
+task-128:
+  type: CHOOSE_FROM_PICS
+  word: "Gruzie"
+  isSound: 50
+  cards:
+    - card:
+      translation: "lang:georgia"
+      picture: "Georgia.svg"
+    - card:
+      translation: "lang:kazakhstan"
+      picture: "Kazakhstan.svg"
+    - card:
+      translation: "lang:azerbaijan"
+      picture: "Azerbaijan.svg"
+    - card:
+      translation: "lang:turkmenistan"
+      picture: "Turkmenistan.svg"
+  answer: "lang:georgia"
+task-129:
+  type: SELECT
+  isSound: 10
+  pairs:
+    - [ "Kazachstán", "lang:kazakhstan" ]
+    - [ "Turkmenistán", "lang:turkmenistan" ]
+    - [ "Tádžikistán", "lang:tajikistan" ]
+    - [ "Uzbekistán", "lang:uzbekistan" ]
+task-130:
+  type: CHOOSE_FROM_LIST
+  text: "lang:azerbaijan"
+  isSound: 0
+  options:
+    - "Kazachstán"
+    - "Ázerbájdžán"
+    - "Česko"
+    - "Gruzie"
+  answer: "Ázerbájdžán"
+task-132:
+  type: CHOOSE_FROM_PICS
+  word: "lang:tajikistan"
+  cards:
+    - card:
+      translation: "Tádžikistán"
+      picture: "Tajikistan.svg"
+    - card:
+      translation: "Uzbekistán"
+      picture: "Uzbekistan.svg"
+    - card:
+      translation: "Turkmenistán"
+      picture: "Turkmenistan.svg"
+    - card:
+      translation: "Uzbekistán"
+      picture: "Uzbekistan.svg"
+  answer: "Tádžikistán"
+task-133:
+  type: CHOOSE_FROM_LIST
+  text: "lang:russia"
+  options:
+    - "Bělorusko"
+    - "Uzbekistán"
+    - "Rusko"
+    - "Turkmenistán"
+  answer: "Rusko"
+task-134:
+  type: CHOOSE_FROM_PICS
+  word: "Kazachstán"
+  isSound: 50
+  cards:
+    - card:
+      translation: "lang:kazakhstan"
+      picture: "Kazakhstan.svg"
+    - card:
+      translation: "lang:belarus"
+      picture: "Belarus.svg"
+    - card:
+      translation: "lang:turkmenistan"
+      picture: "Turkmenistan.svg"
+    - card:
+      translation: "lang:armenia"
+      picture: "Armenia.svg"
+  answer: "lang:kazakhstan"
+task-135:
+  type: CHOOSE_FROM_LIST
+  text: "lang:armenia"
+  isSound: 0
+  options:
+    - "Armenie"
+    - "Ázerbájdžán"
+    - "Bělorusko"
+    - "Rusko"
+  answer: "Armenie"
+task-136:
+  type: CHOOSE_FROM_LIST
+  text: "lang:turkmenistan"
+  options:
+    - "Turkmenistán"
+    - "Uzbekistán"
+    - "Česko"
+    - "Ázerbájdžán"
+  answer: "Turkmenistán"
+task-137:
+  type: SELECT
+  isSound: 10
+  pairs:
+    - [ "Gruzie", "lang:georgia" ]
+    - [ "Armenie", "lang:armenia" ]
+    - [ "Ázerbájdžán", "lang:azerbaijan" ]
+task-138:
+  type: CHOOSE_FROM_PICS
+  word: "Bělorusko"
+  isSound: 100
+  cards:
+    - card:
+      translation: "lang:belarus"
+      picture: "Belarus.svg"
+    - card:
+      translation: "lang:russia"
+      picture: "Russia.svg"
+    - card:
+      translation: "lang:georgia"
+      picture: "Georgia.svg"
+    - card:
+      translation: "lang:turkmenistan"
+      picture: "Turkmenistan.svg"
+  answer: "lang:belarus"
+task-139:
+  type: CHOOSE_FROM_LIST
+  isSound: 100
+  text: "Kazachstán"
+  options:
+    - "lang:kazakhstan"
+    - "lang:armenia"
+    - "lang:belarus"
+    - "lang:russia"
+  answer: "lang:kazakhstan"
+task-140:
+  type: SELECT
+  isSound: 50
+  pairs:
+    - [ "Kazachstán", "lang:kazakhstan" ]
+    - [ "Česko", "lang:czech" ]
+    - [ "Gruzie", "lang:georgia" ]
+    - [ "Uzbekistán", "lang:uzbekistan" ]
+task-141:
+  type: SPEAK
+  answer: "Stůl"
+task-142:
+  type: CHOOSE_FROM_LIST
+  text: "lang:turkmenistan"
+  isSound: 0
+  options:
+    - "Turkmenistán"
+    - "Uzbekistán"
+    - "Česko"
+    - "Ázerbájdžán"
+  answer: "Turkmenistán"
+task-143:
+  type: CHOOSE_FROM_PICS
+  word: "Ázerbájdžán"
+  cards:
+    - card:
+      translation: "lang:azerbaijan"
+      picture: "Azerbaijan.svg"
+    - card:
+      translation: "lang:czech"
+      picture: "Czech_republic.svg"
+    - card:
+      translation: "lang:belarus"
+      picture: "Belarus.svg"
+    - card:
+      translation: "lang:turkmenistan"
+      picture: "Turkmenistan.svg"
+  answer: "lang:azerbaijan"
+task-144:
+  type: CHOOSE_FROM_LIST
+  text: "Uzbekistán"
+  isSound: 50
+  options:
+    - "lang:uzbekistan"
+    - "lang:georgia"
+    - "lang:russia"
+    - "lang:belarus"
+  answer: "lang:uzbekistan"
+task-145:
+  type: CHOOSE_FROM_PICS
+  word: "Česko"
+  isSound: 75
+  cards:
+    - card:
+      translation: "lang:czech"
+      picture: "Czech_republic.svg"
+    - card:
+      translation: "lang:ukraine"
+      picture: "Ukraine.svg"
+    - card:
+      translation: "lang:armenia"
+      picture: "Armenia.svg"
+    - card:
+      translation: "lang:georgia"
+      picture: "Georgia.svg"
+  answer: "lang:czech"
+task-146:
+  type: SELECT
+  isSound: 75
+  pairs:
+    - [ "Česko", "lang:czech" ]
+    - [ "Bělorusko", "lang:belarus" ]
+    - [ "Kazachstán", "lang:kazakhstan" ]
+    - [ "Gruzie", "lang:georgia" ]
+    - [ "Turkmenistán", "lang:turkmenistan" ]
+task-147:
+  type: CHOOSE_FROM_LIST
+  text: "Ukrajina"
+  isSound: 25
+  options:
+    - "lang:ukraine"
+    - "lang:czech"
+    - "lang:belarus"
+    - "lang:uzbekistan"
+  answer: "lang:ukraine"
+task-148:
+  type: CHOOSE_FROM_PICS
+  word: "Armenie"
+  isSound: 0
+  cards:
+    - card:
+      translation: "lang:kazakhstan"
+      picture: "Kazakhstan.svg"
+    - card:
+      translation: "lang:ukraine"
+      picture: "Ukraine.svg"
+    - card:
+      translation: "lang:belarus"
+      picture: "Belarus.svg"
+    - card:
+      translation: "lang:armenia"
+      picture: "Armenia.svg"
+  answer: "lang:armenia"
+task-149:
+  type: CHOOSE_FROM_LIST
+  text: "lang:georgia"
+  isSound: 0
+  options:
+    - "Bělorusko"
+    - "Gruzie"
+    - "Uzbekistán"
+    - "Turkmenistán"
+  answer: "Gruzie"
+task-150:
+  type: SPEAK
+  answer: "Místnost"
+task-151:
+  type: CHOOSE_FROM_PICS
+  word: "Turkmenistán"
+  isSound: 50
+  cards:
+    - card:
+      translation: "lang:turkmenistan"
+      picture: "Turkmenistan.svg"
+    - card:
+      translation: "lang:georgia"
+      picture: "Georgia.svg"
+    - card:
+      translation: "lang:azerbaijan"
+      picture: "Azerbaijan.svg"
+    - card:
+      translation: "lang:kazakhstan"
+      picture: "Kazakhstan.svg"
+  answer: "lang:turkmenistan"
+
+# lesson 3
+#exercise 3
+task-153:
+  type: WORDS
+  words:
+    - word:
+      name: "Čech/Češka"
+      translation: "lang:czechish"
+      picture: "czechish.svg"
+    - word:
+      name: "Ukrajinec/Ukrajinka"
+      translation: "lang:ukrainian"
+      picture: "ukrainian.svg"
+    - word:
+      name: "Rus/Ruska"
+      translation: "lang:russian"
+      picture: "russian.svg"
+    - word:
+      name: "Bělorus/Běloruska"
+      translation: "lang:belorussian"
+      picture: "belorussian.svg"
+    - word:
+      name: "Kazach/Kazaška"
+      translation: "lang:kazakhish"
+      picture: "kazakhish.svg"
+    - word:
+      name: "Gruzínec/Gruzínka"
+      translation: "lang:georgian"
+      picture: "georgian.svg"
+    - word:
+      name: "Armén/Arménka"
+      translation: "lang:armenian"
+      picture: "armenian.svg"
+  answer: ""
+task-154:
+  type: CHOOSE_FROM_LIST
+  text: "Kazach/Kazaška"
+  isSound: 25
+  options:
+    - "lang:georgian"
+    - "lang:ukrainian"
+    - "lang:kazakhish"
+    - "lang:belorussian"
+  answer: "lang:kazakhish"
+task-155:
+  type: CHOOSE_FROM_LIST
+  text: "lang:czechish"
+  isSound: 0
+  options:
+    - "Kazach/Kazaška"
+    - "Armén/Arménka"
+    - "Ukrajinec/Ukrajinka"
+    - "Čech/Češka"
+  answer: "Čech/Češka"
+task-156:
+  type: SELECT
+  isSound: 25
+  pairs:
+    - [ "Čech/Češka", "lang:czechish" ]
+    - [ "Ukrajinec/Ukrajinka", "lang:ukrainian" ]
+    - [ "Rus/Ruska", "lang:russian" ]
+    - [ "Gruzínec/Gruzínka", "lang:georgian" ]
+task-158:
+  type: CHOOSE_FROM_PICS
+  word: "Ukrajinec/Ukrajinka"
+  isSound: 50
+  cards:
+    - card:
+      translation: "lang:ukrainian"
+      picture: "ukrainian.svg"
+    - card:
+      translation: "lang:czechish"
+      picture: "czechish.svg"
+    - card:
+      translation: "lang:georgian"
+      picture: "georgian.svg"
+    - card:
+      translation: "lang:kazakhish"
+      picture: "kazakhish.svg"
+  answer: "lang:ukrainian"
+task-159:
+  type: CHOOSE_FROM_LIST
+  text: "lang:ukrainian"
+  isSound: 0
+  options:
+    - "Kazach/Kazaška"
+    - "Armén/Arménka"
+    - "Ukrajinec/Ukrajinka"
+    - "Gruzínec/Gruzínka"
+  answer: "Ukrajinec/Ukrajinka"
+task-160:
+  type: CHOOSE_FROM_PICS
+  word: "Bělorus/Běloruska"
+  isSound: 25
+  cards:
+    - card:
+      translation: "lang:ukrainian"
+      picture: "ukrainian.svg"
+    - card:
+      translation: "lang:czechish"
+      picture: "czechish.svg"
+    - card:
+      translation: "lang:georgian"
+      picture: "georgian.svg"
+    - card:
+      translation: "lang:belorussian"
+      picture: "belorussian.svg"
+  answer: "lang:belorussian"
+task-161:
+  type: CHOOSE_FROM_PICS
+  word: "Gruzínec/Gruzínka"
+  isSound: 75
+  cards:
+    - card:
+      translation: "lang:ukrainian"
+      picture: "ukrainian.svg"
+    - card:
+      translation: "lang:kazakhish"
+      picture: "kazakhish.svg"
+    - card:
+      translation: "lang:georgian"
+      picture: "georgian.svg"
+    - card:
+      translation: "lang:belorussian"
+      picture: "belorussian.svg"
+  answer: "lang:georgian"
+task-162:
+  type: SELECT
+  isSound: 75
+  pairs:
+    - [ "Bělorus/Běloruska", "lang:belorussian" ]
+    - [ "Kazach/Kazaška", "lang:kazakhish" ]
+    - [ "Armén/Arménka", "lang:armenian" ]
+task-163:
+  type: CHOOSE_FROM_LIST
+  text: "lang:russian"
+  isSound: 0
+  options:
+    - "Kazach/Kazaška"
+    - "Armén/Arménka"
+    - "Rus/Ruska"
+    - "Gruzínec/Gruzínka"
+  answer: "Rus/Ruska"
+task-164:
+  type: CHOOSE_FROM_LIST
+  text: "Armén/Arménka"
+  isSound: 50
+  options:
+    - "lang:georgian"
+    - "lang:armenian"
+    - "lang:kazakhish"
+    - "lang:belorussian"
+  answer: "lang:armenian"
+task-165:
+  type: CHOOSE_FROM_LIST
+  text: "Gruzínec/Gruzínka"
+  isSound: 25
+  options:
+    - "lang:georgian"
+    - "lang:ukrainian"
+    - "lang:kazakhish"
+    - "lang:belorussian"
+  answer: "lang:georgian"
+task-167:
+  type: CHOOSE_FROM_LIST
+  text: "Bělorus/Běloruska"
+  isSound: 50
+  options:
+    - "lang:russian"
+    - "lang:ukrainian"
+    - "lang:kazakhish"
+    - "lang:belorussian"
+  answer: "lang:belorussian"
+
+
+task-168:
+  type: GRAMMAR
+  id: "lexicon-where-from"
+task-169:
+  type: COLLECT_FROM_LIST
+  text: "lang:from_ukraine"
+  isSound: 0
+  options:
+    - "Jsem"
+    - "z"
+    - "Ukrajiny"
+    - "Ukrajinec"
+    - "se"
+    - "Ukrajinka"
+  answer: "Jsem z Ukrajiny"
+task-170:
+  type: COLLECT_FROM_LIST
+  text: "lang:im_czechish"
+  isSound: 0
+  options:
+    - "Jsem"
+    - "z"
+    - "čech"
+    - "ukrajinec"
+    - "rus"
+  answer: "Jsem čech"
+task-171:
+  type: COLLECT_FROM_LIST
+  text: "Jsem z Česka"
+  isSound: 100
+  options:
+    - "lang:I"
+    - "lang:from"
+    - "lang:with"
+    - "lang:czech_2c"
+    - "lang:czechish"
+    - "lang:belorussia_2c"
+  answer: "lang:from_czech"
+task-172:
+  type: CHOOSE_FROM_LIST
+  text: "Jsem z Běloruska"
+  isSound: 50
+  options:
+    - "lang:from_belarus"
+    - "lang:im_belorussian"
+    - "lang:from_czech"
+    - "lang:belorussian"
+  answer: "lang:from_belarus"
+task-173:
+  type: COLLECT_FROM_LIST
+  text: "lang:from_russia"
+  isSound: 0
+  options:
+    - "Jsem"
+    - "z"
+    - "Ruska"
+    - "Kazachstánu"
+    - "s"
+  answer: "Jsem z Ruska"
+task-174:
+  type: SELECT
+  isSound: 0
+  pairs:
+    - [ "Jsem z Kazachstánu", "lang:from_kazakhstan" ]
+    - [ "Jsem Rus", "lang:im_russian" ]
+    - [ "Jsem z Ukrajiny", "lang:from_ukraine" ]
+    - [ "Jsem z Armenie", "lang:from_armenia" ]
+    - [ "Jsem Čech", "lang:czechish_m" ]
+    - [ "Jsem Kazaška", "lang:im_kazakish_f" ]
+task-175:
+  type: COLLECT_FROM_LIST
+  text: "lang:from_kazakhstan"
+  isSound: 0
+  options:
+    - "Jsem"
+    - "z"
+    - "Ukrajiny"
+    - "Kazachstánu"
+    - "Česka"
+    - "se"
+  answer: "Jsem z Kazachstánu"
+task-176:
+  type: COLLECT_FROM_LIST
+  text: "Jsem Ukrajinec"
+  isSound: 50
+  options:
+    - "lang:I"
+    - "lang:from"
+    - "lang:ukrainian_m"
+    - "lang:kazakh_f"
+    - "lang:czechish_m"
+  answer: "lang:im_ukrainian"
+task-177:
+  type: CHOOSE_FROM_LIST
+  text: "lang:from_uzbekistan"
+  isSound: 0
+  options:
+    - "Jsem z Běloruska"
+    - "Jsem z Armenie"
+    - "Jsem z Tádžikistánu"
+    - "Jsem z Uzbekistánu"
+  answer: "Jsem z Uzbekistánu"
+task-178:
+  type: COLLECT_FROM_LIST
+  text: "Jsem z Armenie"
+  isSound: 0
+  options:
+    - "lang:I"
+    - "lang:from"
+    - "lang:armenia_2c"
+    - "lang:belorussia_2c"
+    - "lang:czech_2c"
+    - "lang:with"
+  answer: "lang:from_armenia"
+task-179:
+  type: CHOOSE_FROM_LIST
+  text: "Я грузин"
+  isSound: 0
+  options:
+    - "Jsem Bělorus"
+    - "Jsem Gruzínec"
+    - "Jsem z Tádžikistánu"
+    - "Jsem Ukrajinka"
+  answer: "Jsem Gruzínec"
+task-180:
+  type: SELECT
+  isSound: 50
+  pairs:
+    - [ "Jsem z Uzbekistánu", "lang:from_uzbekistan" ]
+    - [ "Jsem z Tádžikistánu", "lang:from_tadjikistan" ]
+    - [ "Jsem z Turkmenistánu", "lang:from_turkmenistan" ]
+    - [ "Jsem z Ázerbájdžánu", "lang:from_azerbaijan" ]
+    - [ "Jsem Gruzínec", "lang:im_georgian" ]
+    - [ "Jsem Armén", "lang:im_armenian" ]
+task-181:
+  type: CHOOSE_FROM_LIST
+  text: "Я армянин"
+  isSound: 0
+  options:
+    - "Jsem Bělorus"
+    - "Jsem Gruzínec"
+    - "Jsem z Tádžikistánu"
+    - "Jsem Armén"
+  answer: "Jsem Armén"
+task-182:
+  type: COLLECT_FROM_LIST
+  text: "Jsem Ukrajinka"
+  isSound: 50
+  options:
+    - "lang:I"
+    - "lang:from"
+    - "lang:ukrainian_f"
+    - "lang:ukrainian_m"
+    - "lang:kazakh_f"
+  answer: "lang:im_ukrainian_f"
+
+
+task-183:
+  type: STORY
+  title: "Seznamení"
+  picture: "meeting.png"
+  music: "university.wav"
+  stories:
+    - story:
+      isNarrator: true
+      text: "Erik a Marcela se scházejí ve školní třídě"
+      translation: "lang:story_meeting_narrator_1"
+    - story:
+      characterPicture: "student-girl.svg"
+      text: "Ahoj! Kdo jsi?"
+      translation: "lang:story_meeting_marcela_1"
+    - story:
+      characterPicture: "student-boy.svg"
+      text: "Jsem nový student. Jmenuju se Erik. A ty?"
+      translation: "lang:story_meeting_erik_1"
+    - story:
+      isTask: true
+      question: "lang:story_meeting_question_1"
+      options: ["lang:option_student", "lang:option_professor", "lang:option_security"]
+      answer: "lang:option_student"
+    - story:
+      characterPicture: "student-girl.svg"
+      text: "Jsem taky studentka. Jmenuju se Marcela."
+      translation: "lang:story_meeting_marcela_2"
+    - story:
+      characterPicture: "student-boy.svg"
+      text: "Těší mě. Odkud jsi?"
+      translation: "lang:story_meeting_erik_2"
+    - story:
+      characterPicture: "student-girl.svg"
+      text: "Taky. Já jsem češka. Jsem z Prahy. A ty?"
+      translation: "lang:story_meeting_marcela_3"
+    - story:
+      characterPicture: "student-boy.svg"
+      text: "Jsem z Kazachstánu."
+      translation: "lang:story_meeting_erik_3"
+    - story:
+      isTask: true
+      question: "lang:story_meeting_question_2"
+      options: [ "lang:_yes", "lang:_no" ]
+      answer: "lang:_yes"
+    - story:
+      isNarrator: true
+      text: "Marcela náhodou šlápne na Erikovu nohu."
+      translation: "lang:story_meeting_narrator_2"
+    - story:
+      characterPicture: "student-boy.svg"
+      text: "Aj!"
+      translation: "lang:story_meeting_erik_4"
+    - story:
+      characterPicture: "student-girl.svg"
+      text: "Promiň."
+      translation: "lang:story_meeting_marcela_4"
+    - story:
+      characterPicture: "student-boy.svg"
+      text: "Nic se nestalo."
+      translation: "lang:story_meeting_erik_5"
+    - story:
+      isTask: true
+      question: "lang:story_meeting_question_3"
+      options: [ "lang:_yes", "lang:_no" ]
+      answer: "lang:_no"

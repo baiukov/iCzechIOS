@@ -1,0 +1,26 @@
+#voice {
+	height: 10vh;
+}
+
+.option > .content {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	color: var(--blue-border);
+	fill: var(--blue-border);
+	text-transform: uppercase;
+}
+
+.content > .icon {
+	width: 25px;
+}
+
+.content > h1 {
+	font-size: 14pt;	
+}
+
+#wavesurfer {
+	width: 80%;
+	height: 90%;
+	display: none;
+}

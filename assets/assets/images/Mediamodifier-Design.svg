@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1080" height="1080" viewBox="0 0 1080 1080" xml:space="preserve">
+<desc>Created with Fabric.js 5.2.4</desc>
+<defs>
+</defs>
+<rect x="0" y="0" width="100%" height="100%" fill="transparent"></rect>
+<g transform="matrix(1 0 0 1 540 540)" id="cac00a9a-37d9-429a-b31f-e4ae037a4e93"  >
+<rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; visibility: hidden;" vector-effect="non-scaling-stroke"  x="-540" y="-540" rx="0" ry="0" width="1080" height="1080" />
+</g>
+<g transform="matrix(1 0 0 1 540 540)" id="260e47ad-722f-4fdb-9be7-8e2a2e34d999"  >
+</g>
+<g transform="matrix(0.17 0 0 0.17 540.12 539.88)" id="256ee397-4942-4afc-987a-386103aa5fd9"  >
+<circle style="stroke: rgb(0,0,0); stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  cx="0" cy="0" r="35" />
+</g>
+<g transform="matrix(1 0 0 1 540 540)"  >
+<path style="stroke: rgb(0,0,0); stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(82,204,153); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(-12, -12)" d="M 12 2 C 6.477152501692066 2 2 6.477152501692066 2 12 C 2 17.522847498307932 6.477152501692066 22 12 22 C 17.522847498307932 22 22 17.522847498307932 22 12 C 22 6.477152501692066 17.522847498307932 2 12 2 z M 16.3 9.61 L 11.73 15.61 C 11.541207392981061 15.855246978580096 11.249496648691053 15.99925608019162 10.940000000000001 16 C 10.632219654517234 16.001657952324674 10.3408221173095 15.861492048351332 10.150000000000002 15.62 L 7.710000000000003 12.51 C 7.370344878854064 12.073695047633674 7.4486950476336755 11.444655121145939 7.885000000000002 11.105 C 8.32130495236633 10.765344878854062 8.950344878854064 10.843695047633673 9.290000000000003 11.28 L 10.920000000000002 13.36 L 14.700000000000001 8.36 C 15.036893697396785 7.9181722001353645 15.668172200135366 7.833106302603215 16.11 8.17 C 16.551827799864636 8.506893697396784 16.636893697396786 9.138172200135365 16.3 9.58 z" stroke-linecap="round" />
+</g>
+</svg>

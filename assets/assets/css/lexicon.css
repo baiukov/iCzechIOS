@@ -1,0 +1,125 @@
+h2, h1, h3, p {
+	margin: 0;
+}
+
+.title {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 15px
+}
+
+.title > .icon {
+	width: 20px;
+	height: 20px;
+}
+
+.information {
+	position: absolute;
+	background-color: var(--bg-color);
+	padding: 10px;
+	border: 2px solid var(--blue-bg);
+	border-radius: 5px;
+	width: 85%;
+}
+
+.information > p {
+	font-size: 12pt;
+	color: var(--gray)
+}
+
+.cloud-box {
+	width: 15px;
+	height: 15px;
+	z-index: 1;
+	background-color: var(--bg-color);
+	border-bottom: 2px solid var(--blue-bg);
+	border-right: 2px solid var(--blue-bg);
+	position: absolute;
+	transform: translateY(2px) rotate(-135deg);
+	top: -12px;
+}
+
+.question {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
+.question * p {
+	margin: 0;
+	font-size: 1.2em;
+	text-indent: 10px;
+}
+
+.question-option {
+	display: flex;
+	gap: 5px;
+}
+
+#formalInfo > p {
+	font-size: 12pt;
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+h3 {
+	font-weight: 400;
+}
+
+.answer * p {
+	font-size: 12pt;
+	text-indent: 25px;
+}
+
+.answer-option {
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
+td {
+	background-color: var(--table-background);
+}
+
+table {
+	color: var(--table-text);
+}
+
+.important {
+	color: red;
+	font-weight: 600;
+}
+
+.attention > img {
+	float: left;
+	margin-right: 10px;
+}
+
+.attention {
+	border: 3px solid red;
+	padding: 15px;
+	border-radius: 20px;
+}
+
+.attention * h1 {
+	color: red;
+}
+
+.attention * p {
+	font-size: 12pt;
+}
+
+.footer, .submit {
+	position: relative;
+}
+
+.footer {
+	display: flex;
+	justify-content: flex-end;
+}

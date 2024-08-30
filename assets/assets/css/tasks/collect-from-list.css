@@ -1,0 +1,40 @@
+.main {
+	padding-bottom: 150px;
+}
+
+.main > .thick-title {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.answer {
+	min-height: 10vh;
+	height: fit-content;
+	border: 3px solid var(--gray);
+	border-radius: 15px;
+	padding: 15px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 3px;
+}
+
+.option {
+	width: fit-content;
+	height: fit-content;
+}
+
+.option > p {
+	font-size: 12pt;
+}
+
+.options-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 5px;
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
